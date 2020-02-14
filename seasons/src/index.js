@@ -22,7 +22,7 @@ class App extends React.Component {
         return <SeasonsDisplay lat={this.state.lat} />
         }
 
-        return <Spinner message="Please accept location request" />;
+        return <Spinner />;
     }
 // React says we have to define render !!
     render() {
